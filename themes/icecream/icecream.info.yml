@@ -1,0 +1,7 @@
+name: Ice Cream
+type: theme
+base theme: classy
+core: 8.x
+package: Custom
+description: 'Ice cream for learning'
+screenshot: screenshot.png
