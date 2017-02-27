@@ -1,0 +1,22 @@
+uuid: 3aedc126-13aa-4b71-9d9d-5d6d6f9bea12
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - eg
+_core:
+  default_config_hash: jQQUUWN2Uxr5qZtc9zcJKBCxpKY8orN1u2HPqYYRQDI
+id: eg_powered
+theme: eg
+region: '-1'
+weight: -3
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

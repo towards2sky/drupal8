@@ -1,0 +1,35 @@
+uuid: bc00e574-05c5-4836-a762-c5babc1a22c4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.services.body
+    - field.field.node.services.field_service_image
+    - image.style.eg_grid_style
+    - node.type.services
+  module:
+    - image
+    - text
+    - user
+id: node.services.default
+targetEntityType: node
+bundle: services
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_trimmed
+    weight: 1
+    settings:
+      trim_length: 200
+    third_party_settings: {  }
+  field_service_image:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: eg_grid_style
+      image_link: content
+    third_party_settings: {  }
+    type: image
+hidden:
+  links: true

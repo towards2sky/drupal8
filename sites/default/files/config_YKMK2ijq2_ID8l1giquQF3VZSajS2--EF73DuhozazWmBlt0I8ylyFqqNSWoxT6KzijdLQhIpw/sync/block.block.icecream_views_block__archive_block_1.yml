@@ -1,0 +1,30 @@
+uuid: 4766b31c-193a-4981-9876-d192a2746044
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.archive
+  module:
+    - system
+    - views
+  theme:
+    - icecream
+id: icecream_views_block__archive_block_1
+theme: icecream
+region: header
+weight: 0
+provider: null
+plugin: 'views_block:archive-block_1'
+settings:
+  id: 'views_block:archive-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /blog
+    negate: false
+    context_mapping: {  }

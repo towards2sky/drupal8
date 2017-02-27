@@ -1,0 +1,31 @@
+uuid: 316758e5-6c96-408f-a2b9-945746155e54
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:6b60f3bc-a460-40d9-8b81-b57afc2d74c7'
+  module:
+    - block_content
+    - system
+  theme:
+    - icecream
+id: icecream_who_2
+theme: icecream
+region: header
+weight: -9
+provider: null
+plugin: 'block_content:6b60f3bc-a460-40d9-8b81-b57afc2d74c7'
+settings:
+  id: 'block_content:6b60f3bc-a460-40d9-8b81-b57afc2d74c7'
+  label: Who
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

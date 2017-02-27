@@ -1,0 +1,30 @@
+uuid: a1fa47d2-e44b-4b6b-bb5e-bcea3025dc44
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.banner
+  module:
+    - system
+    - views
+  theme:
+    - eg
+id: views_block__banner_block_1
+theme: eg
+region: highlighted
+weight: 0
+provider: null
+plugin: 'views_block:banner-block_1'
+settings:
+  id: 'views_block:banner-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

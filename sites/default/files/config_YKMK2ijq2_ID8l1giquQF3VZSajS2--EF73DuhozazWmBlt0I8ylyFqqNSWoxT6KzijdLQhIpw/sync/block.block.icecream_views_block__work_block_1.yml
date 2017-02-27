@@ -1,0 +1,30 @@
+uuid: a8ec667e-0e65-4763-9c9c-9426f5dd1b30
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.work
+  module:
+    - system
+    - views
+  theme:
+    - icecream
+id: icecream_views_block__work_block_1
+theme: icecream
+region: header
+weight: -8
+provider: null
+plugin: 'views_block:work-block_1'
+settings:
+  id: 'views_block:work-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

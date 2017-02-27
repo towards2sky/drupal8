@@ -1,0 +1,12 @@
+uuid: 193bf819-3700-441b-a48b-3c7dd4876d69
+langcode: en
+status: true
+dependencies: {  }
+id: contact_us
+label: 'Contact Us'
+recipients:
+  - rajesh@osscube.com
+reply: ''
+weight: 0
+message: ''
+redirect: ''

@@ -1,0 +1,31 @@
+uuid: 2fb30ecb-3e69-45aa-ad04-2a669734df0a
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:7b054f43-d4a4-4fb8-8e7e-c1b07357bbb3'
+  module:
+    - block_content
+    - system
+  theme:
+    - icecream
+id: icecream_myphilosophy
+theme: icecream
+region: header
+weight: -7
+provider: null
+plugin: 'block_content:7b054f43-d4a4-4fb8-8e7e-c1b07357bbb3'
+settings:
+  id: 'block_content:7b054f43-d4a4-4fb8-8e7e-c1b07357bbb3'
+  label: 'My philosophy'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }
